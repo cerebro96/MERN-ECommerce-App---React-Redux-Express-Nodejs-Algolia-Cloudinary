@@ -9,6 +9,7 @@ import ProductCarousel from '../components/ProductCarousel'
 import Paginate from '../components/Paginate'
 import Meta from '../components/Meta'
 import {algolioGetAPIDet} from '../actions/AlgolioActions'
+import axios from 'axios'
 
 const Homescreen = ({match}) => {
 
@@ -26,13 +27,23 @@ const Homescreen = ({match}) => {
         if(!api_data){
             dispatch(algolioGetAPIDet()) 
         }
-            
+            const scriptaddtobody = async () => {
+            const { data : platform_data } = await axios.get('/api/config/prodev')
+            //console.log(platform_data)
             const script = document.createElement('script') 
             script.type = 'text/javascript'
-            script.src = `http://localhost:3000/AlgoliaAutoSearch.js` //Pls find the method for the hardcorded creds of algolia api and if port changes please change it
+            if(platform_data === "Development"){
+                script.src = `http://localhost:3000/AlgoliaAutoSearch.js` //Pls find the method for the hardcorded creds of algolia api and if port changes please change it
+            }else{
+                script.src = `http://localhost:5000/AlgoliaAutoSearch.js` 
+            }
+          
             //script.async = true
             script.id = 'API'
-            document.body.appendChild(script)    
+            document.body.appendChild(script)  
+
+            }
+            scriptaddtobody()
         dispatch(listProducts(pageNumber,pageSize))
 
     },[dispatch,pageNumber,api_data])

@@ -42,13 +42,17 @@ app.get('/api/config/algolia',(req,res) =>
     })
 )
 
+app.get('/api/config/prodev',(req,res) => 
+    res.send(process.env.NODE_ENV)
+)
+
 __dirname = path.resolve() // check const __dirname
 app.use('/uploads',express.static(path.join(__dirname,'/uploads')))
 
 if(process.env.NODE_ENV === "Production"){
     app.use(express.static(path.join(__dirname,'/frontend/build')))
 
-    app.get('*',(req,res) => res.sendFile(__dirname,'frontend','build','index.html'))
+    app.get('*',(req,res) => res.sendFile(path.resolve(__dirname,'frontend','build','index.html')))
 }else{
     app.get('/',(req,res) => {
         res.send('API Running....')
