@@ -21,10 +21,6 @@ dotenv.config();
 
 connectDB.connectDB();
 
-app.get('/',(req,res) => {
-    res.send('API Running....')
-})
-
 app.use('/api/products',productRoutes)
 app.use('/api/users',usertRoutes)
 app.use('/api/orders',orderRoutes)
@@ -48,6 +44,16 @@ app.get('/api/config/algolia',(req,res) =>
 
 __dirname = path.resolve() // check const __dirname
 app.use('/uploads',express.static(path.join(__dirname,'/uploads')))
+
+if(process.env.NODE_ENV === "Production"){
+    app.use(express.static(path.join(__dirname,'/frontend/build')))
+
+    app.get('*',(req,res) => res.sendFile(__dirname,'frontend','build','index.html'))
+}else{
+    app.get('/',(req,res) => {
+        res.send('API Running....')
+    })
+}
 
 app.use(require('./middleware/errorMiddleware').notFound)
 
