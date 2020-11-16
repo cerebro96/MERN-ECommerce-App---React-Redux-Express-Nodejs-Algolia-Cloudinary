@@ -65,7 +65,8 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
 ## Algolia Setup
 
 - You need free account of alogolia [Algolia](https://www.algolia.com/)
--
+  ![API Secrets](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/algolia_api.png?raw=true)
+- Create Indice and replace .env **_ALGOLIA_INDEX_ID_** using that name
 
 ## Install Dependencies (frontend & backend)
 
