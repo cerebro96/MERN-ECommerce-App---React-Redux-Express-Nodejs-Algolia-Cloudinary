@@ -85,6 +85,10 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
 ## Cloudinary Setup
 
 - Create account [Create](https://cloudinary.com/)
+  ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf7.PNG?raw=true)
+- In media library create folder called **_images_**
+  - CLOUDINARY_FOLDER = **images** in .env
+- Settings -> upload -> Add new upload preset
 
 ## Install Dependencies (frontend & backend)
 
