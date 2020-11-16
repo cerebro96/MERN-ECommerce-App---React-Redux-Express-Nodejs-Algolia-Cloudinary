@@ -1,7 +1,5 @@
 # MERN - ECommerce - App - (React-Redux-Express-Nodejs-Algolia-Cloudinary)
 
-[alt text] (https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/screenshot_home.PNG?raw=true)
-
 ## Features
 
 - Full featured shopping cart
