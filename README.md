@@ -2,7 +2,8 @@
 
 <!-- blockquote -->
 
-> built during the course, by **_Brad Traversy_** [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce/)
+> built during the course, by **_Brad Traversy_** [MERN eCommerce From Scratch]
+> (https://www.udemy.com/course/mern-ecommerce/)
 
 ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/screenshot_home.PNG?raw=true)
 
@@ -18,8 +19,16 @@
   - Dynamic pagination (Page Size can be change according to the your page requirment)
 - Product search feature with Algolia Advanced Search
   - Home Screen Search
+    ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/search_home.png?raw=true)
+  - Advanced Search Capabilities
+    ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/search_algo_exam_1.png?raw=true)
+    ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/search_algo_exam_2.png?raw=true)
+    ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/search_algo_exam_3.png?raw=true)
+- Product Admin
+  - Product image Upload
+    - intergrate with Cloudinary cloud-based image and video management service
+  - Seperate pages for product update and create
 - User profile with orders
-- Admin product management
 - Admin user management
 - Admin Order details page
 - Mark orders as delivered option
