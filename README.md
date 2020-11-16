@@ -1,6 +1,6 @@
 # MERN - ECommerce - App - (React-Redux-Express-Nodejs-Algolia-Cloudinary)
 
-https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/screenshot_home.PNG?raw=true
+[alt text] (https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/screenshot_home.PNG?raw=true)
 
 ## Features
 
