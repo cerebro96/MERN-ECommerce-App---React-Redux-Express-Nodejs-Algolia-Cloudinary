@@ -38,6 +38,7 @@
 - Checkout process (shipping, payment method, etc)
 - PayPal / credit card integration
 - Database seeder (products & users)
+- Main Repo bug Fixes
 
 ## Env Variables
 
