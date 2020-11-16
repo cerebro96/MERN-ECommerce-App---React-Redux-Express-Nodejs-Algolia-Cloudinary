@@ -5,6 +5,8 @@
 > built during the course, by **_Brad Traversy_** [MERN eCommerce From Scratch]
 > (https://www.udemy.com/course/mern-ecommerce/)
 
+[Main Repo By Brad Traversy](https://github.com/bradtraversy/proshop_mern)
+
 ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/screenshot_home.PNG?raw=true)
 
 ## Features
@@ -28,6 +30,7 @@
   - Product image Upload
     - intergrate with Cloudinary cloud-based image and video management service
   - Seperate pages for product update and create
+    ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/productupdate.PNG?raw=true)
 - User profile with orders
 - Admin user management
 - Admin Order details page
@@ -36,21 +39,73 @@
 - PayPal / credit card integration
 - Database seeder (products & users)
 
-## .env File Structure
+## Env Variables
 
-- NODE_ENV = Development
-- PORT = 5000
-- MONGO_URI = xxxxxxxxxxxxxxxxxxxxxxx
-- JWT_SECRET = 123456
-- PAYPAL_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_APP_ID=xxxxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_INDEX_ID=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_WEB_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_PRICE_DESC=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_PRICE_ASC=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_QUERY_SUGGESTIONS=xxxxxxxxxxxxxxxxxxxxxxx
-- CLOUDINARY_NAME=xxxxxxxxxxxxxxxxxxxxxxx
-- CLOUDINARY_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
-- CLOUDINARY_API_SECRET=xxxxxxxxxxxxxxxxxxxxxxx
-- CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
+Create a .env file in then root and add the following
+
+```bash
+NODE_ENV = Development
+PORT = 5000
+MONGO_URI = xxxxxxxxxxxxxxxxxxxxxxx
+JWT_SECRET = 123456
+PAYPAL_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_APP_ID=xxxxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_INDEX_ID=xxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_WEB_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_PRICE_DESC=xxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_PRICE_ASC=xxxxxxxxxxxxxxxxxxxxxxx
+ALGOLIA_QUERY_SUGGESTIONS=xxxxxxxxxxxxxxxxxxxxxxx
+CLOUDINARY_NAME=xxxxxxxxxxxxxxxxxxxxxxx
+CLOUDINARY_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
+CLOUDINARY_API_SECRET=xxxxxxxxxxxxxxxxxxxxxxx
+CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
+```
+
+## Algolia Setup
+
+- You need free account of alogolia [Algolia](https://www.algolia.com/)
+-
+
+## Install Dependencies (frontend & backend)
+
+```bash
+npm install
+cd frontend
+npm install
+```
+
+## Run
+
+```bash
+# Run frontend (:3000) & backend (:5000)
+npm run dev
+
+# Run backend only
+npm run server
+```
+
+## Seed Database
+
+You can use the following commands to seed the database with some sample users and products as well as destroy all data
+
+```bash
+# Import data
+npm run data:import
+
+# Destroy data
+npm run data:destroy
+```
+
+```bash
+Sample User Logins
+
+admin@example.com (Admin)
+123456
+
+john@example.com (Customer)
+123456
+
+jane@example.com (Customer)
+123456
+```
