@@ -72,6 +72,7 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
   ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf1.PNG?raw=true)
   ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf2.PNG?raw=true)
 - ALGOLIA_PRICE_DESC && ALGOLIA_PRICE_ASC
+  - Create two replicas for search sorting
 
 ## Install Dependencies (frontend & backend)
 
