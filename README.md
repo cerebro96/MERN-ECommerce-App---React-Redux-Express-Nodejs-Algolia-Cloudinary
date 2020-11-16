@@ -31,7 +31,7 @@
 - MONGO_URI = xxxxxxxxxxxxxxxxxxxxxxx
 - JWT_SECRET = 123456
 - PAYPAL_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxx
-- ALGOLIA_APP_ID=D4JI1Y7PUY
+- ALGOLIA_APP_ID=xxxxxxxxxxxxxxxxxxxxxxxxx
 - ALGOLIA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
 - ALGOLIA_INDEX_ID=xxxxxxxxxxxxxxxxxxxxxxx
 - ALGOLIA_WEB_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
