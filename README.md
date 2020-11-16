@@ -69,6 +69,9 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
 - Create Indice and replace .env **_ALGOLIA_INDEX_ID_** using that name
   ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/algolia_main_indice.PNG?raw=true)
 - Main Indice Configuration
+  ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf1.PNG?raw=true)
+  ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf2.PNG?raw=true)
+- ALGOLIA_PRICE_DESC && ALGOLIA_PRICE_ASC
 
 ## Install Dependencies (frontend & backend)
 
