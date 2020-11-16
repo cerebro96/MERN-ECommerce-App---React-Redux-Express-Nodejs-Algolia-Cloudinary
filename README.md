@@ -64,7 +64,7 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
 
 ## Algolia Setup
 
-- You need free account of alogolia [Algolia](https://www.algolia.com/)
+- You need free account in alogolia [Algolia](https://www.algolia.com/)
   ![API Secrets](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/algolia_api.png?raw=true)
 - Create Indice and replace .env **_ALGOLIA_INDEX_ID_** using that name
   ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/algolia_main_indice.PNG?raw=true)
@@ -77,9 +77,14 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
     ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf3.PNG?raw=true)
     - add sorting and ranking attribute to the replica
       ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf5.PNG?raw=true)
-- ALGOLIA_QUERY_SUGGESTIONS for home search bar
+- ALGOLIA_QUERY_SUGGESTIONS for website home search bar
   - add query suggesion and Source indices settings as your main indices
   - but you need to add manual record to the query suggestion indices because this categories, I plan to add using front end.
+    ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf6.PNG?raw=true)
+
+## Cloudinary Setup
+
+- Create account [Create](https://cloudinary.com/)
 
 ## Install Dependencies (frontend & backend)
 
