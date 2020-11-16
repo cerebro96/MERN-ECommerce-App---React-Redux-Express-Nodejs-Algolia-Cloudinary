@@ -75,6 +75,11 @@ CLOUDINARY_FOLDER=xxxxxxxxxxxxxxxxxxxxxxx
   ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf4.png?raw=true)
   - Create two replicas for search sorting
     ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf3.PNG?raw=true)
+    - add sorting and ranking attribute to the replica
+      ![](https://github.com/cerebro96/MERN-ECommerce-App---React-Redux-Express-Nodejs-Algolia-Cloudinary/blob/master/uploads/conf5.PNG?raw=true)
+- ALGOLIA_QUERY_SUGGESTIONS for home search bar
+  - add query suggesion and Source indices settings as your main indices
+  - but you need to add manual record to the query suggestion indices because this categories, I plan to add using front end.
 
 ## Install Dependencies (frontend & backend)
 
